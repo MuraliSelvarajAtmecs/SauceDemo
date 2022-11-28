@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -14,18 +15,20 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.reskill.pages.ProductPageLocators;
 import com.reskill.reusables.FilePath;
+import com.reskill.testscripts.SauceDemoLoginTest;
 
 public class ExcelDataReads {
+	static Logger logger = Logger.getLogger(ExcelDataReads.class);
 	DataFormatter dataFormatter = new DataFormatter();
 	String path = FilePath.HOMEPAGE;
 	
-
 	ProductPageLocators productPage = new ProductPageLocators();
 
 	XSSFWorkbook workBook;
 	
 	@SuppressWarnings("resource")
 	public List<String> readExcelData(String getSheetData) {
+		List<String> userData = null;
 //		/src/main/resources/moduleOneTestData/sauceDemoTestData.xlsx
 		File src = new File(path + File.separator + "src" + File.separator + "main" + File.separator + "resources"
 				+ File.separator + "moduleOneTestData" + File.separator + "sauceDemoTestData.xlsx");
@@ -35,21 +38,21 @@ public class ExcelDataReads {
 			try {
 				workBook = new XSSFWorkbook(files);
 				int numberOfSheets = workBook.getNumberOfSheets();
-				System.out.println("Number of Sheets: " + numberOfSheets);
+//				logger.info(("Number of Sheets: " + numberOfSheets);
 
 				for (int sheetcount = 0; sheetcount < numberOfSheets; sheetcount++) {
 					String sheetNames = workBook.getSheetAt(sheetcount).getSheetName();
 					if (sheetNames.contains(getSheetData)) {
-						getdata(sheetNames);
+						userData = getdata(sheetNames);
 					}
 				}
 			} catch (IOException e) {
-				System.out.println("IO Execption");
+				logger.info("IO Execption");
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("File Not Found Exeception");
+			logger.info("File Not Found Exeception");
 		}
-		return null;
+		return userData;
 	}
 
 	@SuppressWarnings("null")
@@ -57,26 +60,30 @@ public class ExcelDataReads {
 		List<String> excelData = new ArrayList<String>();
 		XSSFSheet sheet = null;
 		int lastRowNum = 0;
-		System.out.println("Name of Sheet is: " + productPage.getnameofSheet0());
+//		logger.info("Name of Sheet is: " + productPage.getnameofSheet0());
 		sheet = workBook.getSheet(sheetNames);
 		lastRowNum = sheet.getPhysicalNumberOfRows();
-		System.out.println("Last Row Number is: " + lastRowNum);
+//		logger.info("Last Row Number is: " + lastRowNum);
 		for (int rowNum = 1; rowNum < lastRowNum; rowNum++) {
 			XSSFRow row = sheet.getRow(rowNum);
 			int lastCellNum = row.getLastCellNum();
 			for (int cellNum = 0; cellNum < lastCellNum; cellNum++) {
 				String cellData = dataFormatter.formatCellValue(row.getCell(cellNum));
-				System.out.println("The Cell Value is: " + cellData);
+//				logger.info("The Cell Value is: " + cellData);
 				excelData.add(cellData);
 			}
 		}
 		return excelData;
 	}
 
-	public static void main(String[] args) {
-		ProductPageLocators productPage = new ProductPageLocators();
-		ExcelDataReads run = new ExcelDataReads();
-		run.readExcelData(productPage.getnameofSheet0());
-	}
+//	public static void main(String[] args) {
+//		ProductPageLocators productPage = new ProductPageLocators();
+//		ExcelDataReads run = new ExcelDataReads();
+//		List<String> data = run.readExcelData(productPage.getnameofSheet0());
+//		for(int i=0; i<data.size(); i++) {
+//			System.out.println(data.get(i));
+//			System.out.println("==================");
+//		}
+//	}
 
 }
