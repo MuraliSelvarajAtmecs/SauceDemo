@@ -5,11 +5,11 @@ import java.util.NoSuchElementException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import com.reskill.pages.UserLoginPageLocators;
+import com.reskill.pages.UserLoginPageLocation;
 
 public class CheckElement {
 	static Logger logger = Logger.getLogger(CheckElement.class);
-	UserLoginPageLocators login = new UserLoginPageLocators();
+	UserLoginPageLocation login = new UserLoginPageLocation();
 	String expUserName;
 
 	public boolean isElementPresent(WebDriver driver, By locator, String elementLabel) {
@@ -22,4 +22,5 @@ public class CheckElement {
 		logger.info("Element " + elementLabel + " is Present ");
 		return true;
 	}
+
 }

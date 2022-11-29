@@ -6,11 +6,11 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.reskill.pages.UserLoginPageLocators;
+import com.reskill.pages.UserLoginPageLocation;
 
 public class PageEnteryConfirmation {
 	static Logger logger = Logger.getLogger(PageEnteryConfirmation.class);
-	UserLoginPageLocators login = new UserLoginPageLocators();
+	UserLoginPageLocation login = new UserLoginPageLocation();
 	String expUserName;
 
 	public boolean isElementPresent(WebDriver driver, By locator, String elementLabel) {
@@ -22,6 +22,5 @@ public class PageEnteryConfirmation {
 		}
 		logger.info("User logged in " +elementLabel + " Page Successfully");
 		return true;
-
 	}
 }

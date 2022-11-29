@@ -6,14 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import com.reskill.pages.UserLoginPageLocators;
+import com.reskill.pages.UserLoginPageLocation;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SelectWebDriver {
 	BrowserUtilities browser = new BrowserUtilities();
 	
-	UserLoginPageLocators login = new UserLoginPageLocators();
+	UserLoginPageLocation login = new UserLoginPageLocation();
 	public WebDriver driver;
 	static Logger logger = Logger.getLogger(SelectWebDriver.class);
 

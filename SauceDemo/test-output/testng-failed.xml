@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.reskill.testscripts.SauceDemoLoginTest">
+      <class name="com.reskill.testscripts.SauceDemoProductVerification">
         <methods>
-          <include name="CheckUserCredentials"/>
-          <include name="selectBrowser"/>
           <include name="closeDriver"/>
+          <include name="sauceDemo"/>
+          <include name="selectBrowser"/>
         </methods>
-      </class> <!-- com.reskill.testscripts.SauceDemoLoginTest -->
+      </class> <!-- com.reskill.testscripts.SauceDemoProductVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

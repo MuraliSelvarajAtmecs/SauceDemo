@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-28T13:04:16 IST" name="Default suite" finished-at="2022-11-28T13:04:22 IST" duration-ms="6120">
+  <suite started-at="2022-11-30T00:59:41 IST" name="Default suite" finished-at="2022-11-30T00:59:55 IST" duration-ms="13193">
     <groups>
     </groups>
-    <test started-at="2022-11-28T13:04:16 IST" name="Default test" finished-at="2022-11-28T13:04:22 IST" duration-ms="6120">
-      <class name="com.reskill.testscripts.SauceDemoLoginTest">
-        <test-method is-config="true" signature="selectBrowser()[pri:0, instance:com.reskill.testscripts.SauceDemoLoginTest@6dd93a21]" started-at="2022-11-28T13:04:16 IST" name="selectBrowser" finished-at="2022-11-28T13:04:21 IST" duration-ms="5491" status="PASS">
+    <test started-at="2022-11-30T00:59:41 IST" name="Default test" finished-at="2022-11-30T00:59:55 IST" duration-ms="13193">
+      <class name="com.reskill.testscripts.SauceDemoProductVerification">
+        <test-method is-config="true" signature="selectBrowser()[pri:0, instance:com.reskill.testscripts.SauceDemoProductVerification@3dddefd8]" started-at="2022-11-30T00:59:41 IST" name="selectBrowser" finished-at="2022-11-30T00:59:47 IST" duration-ms="5439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectBrowser -->
-        <test-method signature="CheckUserCredentials()[pri:1, instance:com.reskill.testscripts.SauceDemoLoginTest@6dd93a21]" started-at="2022-11-28T13:04:21 IST" name="CheckUserCredentials" finished-at="2022-11-28T13:04:22 IST" duration-ms="79" status="PASS">
+        <test-method signature="sauceDemo()[pri:0, instance:com.reskill.testscripts.SauceDemoProductVerification@3dddefd8]" started-at="2022-11-30T00:59:47 IST" name="sauceDemo" finished-at="2022-11-30T00:59:55 IST" duration-ms="7717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckUserCredentials -->
-        <test-method signature="validLoginTest()[pri:1, instance:com.reskill.testscripts.SauceDemoLoginTest@6dd93a21]" started-at="2022-11-28T13:04:22 IST" name="validLoginTest" finished-at="2022-11-28T13:04:22 IST" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method signature="getIntoProductMessage()[pri:2, instance:com.reskill.testscripts.SauceDemoLoginTest@6dd93a21]" started-at="2022-11-28T13:04:22 IST" name="getIntoProductMessage" finished-at="2022-11-28T13:04:22 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getIntoProductMessage -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.reskill.testscripts.SauceDemoLoginTest@6dd93a21]" started-at="2022-11-28T13:04:22 IST" name="closeDriver" finished-at="2022-11-28T13:04:22 IST" duration-ms="147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.reskill.testscripts.SauceDemoLoginTest -->
+        </test-method> <!-- sauceDemo -->
+      </class> <!-- com.reskill.testscripts.SauceDemoProductVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

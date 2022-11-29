@@ -13,25 +13,22 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.reskill.pages.ProductPageLocators;
+import com.reskill.pages.ProductPageLocation;
 import com.reskill.reusables.FilePath;
-import com.reskill.testscripts.SauceDemoLoginTest;
 
 public class ExcelDataReads {
 	static Logger logger = Logger.getLogger(ExcelDataReads.class);
 	DataFormatter dataFormatter = new DataFormatter();
-	String path = FilePath.HOMEPAGE;
+	String homePage = FilePath.HOMEPAGE;
+	String readExcel = FilePath.EXCELDATAREADPATH;
 	
-	ProductPageLocators productPage = new ProductPageLocators();
-
+	ProductPageLocation productPage = new ProductPageLocation();
 	XSSFWorkbook workBook;
 	
-	@SuppressWarnings("resource")
-	public List<String> readExcelData(String getSheetData) {
-		List<String> userData = null;
+	public List<String> readExcelData(String getSheetName) {
+		List<String> testExcelData = null;
 //		/src/main/resources/moduleOneTestData/sauceDemoTestData.xlsx
-		File src = new File(path + File.separator + "src" + File.separator + "main" + File.separator + "resources"
-				+ File.separator + "moduleOneTestData" + File.separator + "sauceDemoTestData.xlsx");
+		File src = new File(homePage + File.separator + readExcel + File.separator + "sauceDemoTestData.xlsx");
 		FileInputStream files;
 		try {
 			files = new FileInputStream(src);
@@ -39,11 +36,10 @@ public class ExcelDataReads {
 				workBook = new XSSFWorkbook(files);
 				int numberOfSheets = workBook.getNumberOfSheets();
 //				logger.info(("Number of Sheets: " + numberOfSheets);
-
 				for (int sheetcount = 0; sheetcount < numberOfSheets; sheetcount++) {
 					String sheetNames = workBook.getSheetAt(sheetcount).getSheetName();
-					if (sheetNames.contains(getSheetData)) {
-						userData = getdata(sheetNames);
+					if (sheetNames.contains(getSheetName)) {
+						testExcelData = getData(sheetNames);
 					}
 				}
 			} catch (IOException e) {
@@ -52,11 +48,10 @@ public class ExcelDataReads {
 		} catch (FileNotFoundException e) {
 			logger.info("File Not Found Exeception");
 		}
-		return userData;
+		return testExcelData;
 	}
 
-	@SuppressWarnings("null")
-	public List<String> getdata(String sheetNames) {
+	public List<String> getData(String sheetNames) {
 		List<String> excelData = new ArrayList<String>();
 		XSSFSheet sheet = null;
 		int lastRowNum = 0;
@@ -82,7 +77,6 @@ public class ExcelDataReads {
 //		List<String> data = run.readExcelData(productPage.getnameofSheet0());
 //		for(int i=0; i<data.size(); i++) {
 //			System.out.println(data.get(i));
-//			System.out.println("==================");
 //		}
 //	}
 
