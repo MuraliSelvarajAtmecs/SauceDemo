@@ -60,6 +60,55 @@ static Logger logger = LogManager.getLogger(UserLoginPageLocation.class);
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartPrice");
 	}
 	
+	
+	public String getSauceLabsBikeLightLabel() {
+		return readCartPropertiesFile().getProperty("sauceLabsBikeLightLabel");
+	}
+	
+	public String getSauceLabsBikeLightDiscription() {
+		return readCartPropertiesFile().getProperty("sauceLabsBikeLightCartDiscription");
+	}
+	
+	public String getSauceLabsBikeLightCartPrice() {
+		return readCartPropertiesFile().getProperty("sauceLabsBikeLightCartPrice");
+	}
+	
+	public String getSauceLabsBoltTShirtLabel() {
+		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtLabel");
+	}
+	
+	public String getSauceLabsBoltTShirtDiscription() {
+		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtCartDiscription");
+	}
+	
+	public String getSauceLabsBoltTShirtCartPrice() {
+		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtCartPrice");
+	}
+	
+	public String getSauceLabsOnesieLabel() {
+		return readCartPropertiesFile().getProperty("sauceLabsOnesieLabel");
+	}
+	
+	public String getSauceLabsOnesieDiscription() {
+		return readCartPropertiesFile().getProperty("sauceLabsOnesieCartDiscription");
+	}
+	
+	public String getSauceLabsOnesieCartPrice() {
+		return readCartPropertiesFile().getProperty("sauceLabsOnesieCartPrice");
+	}
+	
+	public String getTestAllTheThingsTShirtRedLabel() {
+		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedLabel");
+	}
+	
+	public String getTestAllTheThingsTShirtRedDiscription() {
+		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedCartDiscription");
+	}
+	
+	public String getTestAllTheThingsTShirtRedCartPrice() {
+		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedCartPrice");
+	}
+	
 	public String getSauceLabsBackpackCartContinueShoping() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartContinueShoping");
 	}
@@ -68,6 +117,7 @@ static Logger logger = LogManager.getLogger(UserLoginPageLocation.class);
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartCheckout");
 	}
 
+	
 	public String getcheckoutCartLabel() {
 		return readCartPropertiesFile().getProperty("checkoutCart");
 	}

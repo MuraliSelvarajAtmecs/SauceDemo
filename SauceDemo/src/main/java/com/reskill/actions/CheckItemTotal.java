@@ -1,5 +1,8 @@
 package com.reskill.actions;
 
+import java.util.Formatter;
+
+import org.apache.commons.math3.util.Precision;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,12 +13,12 @@ public class CheckItemTotal {
 	String value = driver.findElement(locator).getText();
 		String[] splitValue = value.split("\\$");
 		String itemTotal = splitValue[1];
-		double parseDouble = Double.parseDouble(itemTotal);
+    	double parseDouble = Double.parseDouble(itemTotal);
 		return parseDouble;
 	}
 	
 	public double checkoutOverviewTotal(WebDriver driver, By locator) {
-		double itemTotal = getPrice(driver, locator);
+        double itemTotal = getPrice(driver, locator);
 		return itemTotal;
 	}
 }

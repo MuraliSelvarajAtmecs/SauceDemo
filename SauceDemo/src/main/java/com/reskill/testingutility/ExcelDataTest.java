@@ -16,7 +16,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import com.reskill.pages.ProductPageLocation;
 import com.reskill.reusables.FilePath;
 
-public class ExcelDataReads {
+public class ExcelDataTest {
+	
 	static Logger logger = Logger.getLogger(ExcelDataReads.class);
 	DataFormatter dataFormatter = new DataFormatter();
 	String homePage = FilePath.HOMEPAGE;
@@ -79,6 +80,8 @@ public class ExcelDataReads {
 //		for(int i=0; i<data.size(); i++) {
 //			System.out.println(data.get(i));
 //		}
-//	}
-
+//	}	
+	
+	
+	
 }

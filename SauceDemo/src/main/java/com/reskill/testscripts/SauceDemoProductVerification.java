@@ -32,11 +32,10 @@ public class SauceDemoProductVerification {
 	@Test
 	public void sauceDemo() throws InterruptedException{
 		loginPage.validLoginTest(driver);
-		addCartAndCheckout.verifyDefaultProductInCart(driver);
-		checkoutInfo.verifyCheckoutUserInformation(driver, "Murali", "Mulla", 632510);
+		addCartAndCheckout.verifyProductInCart(driver, "Sauce Labs Bike Light");
+		checkoutInfo.verifyCheckoutUserInfo(driver, "Murali", "Mulla", 632510);
 		checkoutOverviewInfo.VerifyCheckoutOverview(driver);
 		checkoutComplete.VerifyCheckoutCompleted(driver);
-		
 	}
 	
 	@AfterTest

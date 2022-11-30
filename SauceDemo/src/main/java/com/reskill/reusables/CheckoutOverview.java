@@ -1,5 +1,6 @@
 package com.reskill.reusables;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -12,6 +13,7 @@ import com.reskill.actions.CheckItemText;
 import com.reskill.actions.CheckItemTotal;
 import com.reskill.pages.CheckoutOverviewPageLocation;
 import com.reskill.testingutility.ExcelDataReads;
+import com.reskill.testingutility.ItemTotal;
 
 public class CheckoutOverview {
 	static Logger logger = Logger.getLogger(CheckoutOverview.class);
@@ -22,6 +24,7 @@ public class CheckoutOverview {
 	CheckItemTotal checkItemTotal = new CheckItemTotal();
 	CheckItemText checkItemText = new CheckItemText();
 	CheckButtonAction buttonAction = new CheckButtonAction();
+	ItemTotal itemTotalCalc = new ItemTotal();
 	
 	public void VerifyCheckoutOverview(WebDriver driver) {
 		List<String> excelData = excelRead.readExcelData(excelDataCheckoutOverviewPage);
@@ -59,11 +62,12 @@ public class CheckoutOverview {
 
 		double itemTotal = checkItemTotal.checkoutOverviewTotal(driver, By.xpath(checkOverview.getChcekoutItemTotal()));
 		double tax = checkItemTotal.checkoutOverviewTotal(driver, By.xpath(checkOverview.getCheckoutTax()));
-		double add = itemTotal + tax;
-		logger.info("Total: " + add);
+		double addition = itemTotal + tax;
+		double decimalTotal = itemTotalCalc.totalCovertion(addition);
+		logger.info("Total: " + decimalTotal);
 
 		double total = checkItemTotal.checkoutOverviewTotal(driver, By.xpath(checkOverview.getCheckoutTotal()));
-		Assert.assertEquals(add, total, " Total is NOT Matched");
+		Assert.assertEquals(decimalTotal, total, " Total is NOT Matched");
 		logger.info(total + " Total is Matched");
 
 		buttonAction.buttonClick(driver, By.xpath(checkOverview.getCheckoutFinish()), excelData.get(7));
@@ -71,3 +75,4 @@ public class CheckoutOverview {
 	}
 
 }
+

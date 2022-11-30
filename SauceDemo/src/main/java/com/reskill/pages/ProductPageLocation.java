@@ -32,7 +32,7 @@ public class ProductPageLocation {
 		}
 		return pordProperties;
 	}
-	
+
 	public String getKey(String key) {
 		return (String) readProductPropertiesFile().get(key);
 	}
@@ -73,6 +73,41 @@ public class ProductPageLocation {
 	
 	public String getSauceLabsBackpackProductRemoveFromCart1() {
 		return  readProductPropertiesFile().getProperty("sauceLabsBackpackProductRemoveFromCart");
+	}
+	
+	public String getSauceLabsBikeLightProductAddToCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsBikeLightProductAddToCart");
+	}
+	public String getSauceLabsBikeLightProductRemoveFromCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsBikeLightProductRemoveFromCart");
+	}
+	
+	public String getSauceLabsBoltTShirtProductAddToCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsBoltTShirtProductAddToCart");
+	}
+	public String getSauceLabsBoltTShirtProductRemoveFromCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsBoltTShirtProductRemoveFromCart");
+	}
+	
+	public String getSauceLabsFleeceJacketProductAddToCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsFleeceJacketProductAddToCart");
+	}
+	public String getSauceLabsFleeceJacketProductRemoveFromCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsFleeceJacketProductRemoveFromCart");
+	}
+	
+	public String getSauceLabsOnesieProductAddToCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsOnesieProductAddToCart");
+	}
+	public String getSauceLabsOnesieProductRemoveFromCart() {
+		return  readProductPropertiesFile().getProperty("sauceLabsOnesieProductRemoveFromCart");
+	}
+	
+	public String getTestAllTheThingsTShirtRedProductAddToCart() {
+		return  readProductPropertiesFile().getProperty("testAllTheThingsTShirtRedProductAddToCart");
+	}
+	public String getTestAllTheThingsTShirtRedProductRemoveFromCart() {
+		return  readProductPropertiesFile().getProperty("testAllTheThingsTShirtRedProductRemoveFromCart");
 	}
 	
 	public String getSauceLabsBackpackProductAddToCart2() {
