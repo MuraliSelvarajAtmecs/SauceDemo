@@ -48,6 +48,7 @@ static Logger logger = LogManager.getLogger(UserLoginPageLocation.class);
 		return readCartPropertiesFile().getProperty("discriptioHeaderText");
 	}
 	
+	
 	public String getSauceLabsBackpackCartLabel() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartLabel");
 	}

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.reskill.actionutility.SelectWebDriver;
 import com.reskill.reusables.AddCartAndCheckout;
+import com.reskill.reusables.CheckAllProducts;
 import com.reskill.reusables.CheckoutComplete;
 import com.reskill.reusables.CheckoutInfo;
 import com.reskill.reusables.CheckoutOverview;
@@ -21,7 +22,7 @@ public class SauceDemoProductVerification {
 	CheckoutInfo checkoutInfo = new CheckoutInfo();
 	CheckoutOverview checkoutOverviewInfo = new CheckoutOverview();
 	CheckoutComplete checkoutComplete = new CheckoutComplete();
-	
+	CheckAllProducts check = new CheckAllProducts();
 	
 	@BeforeTest
 	public void selectBrowser() {
@@ -29,10 +30,11 @@ public class SauceDemoProductVerification {
 		requestDriver.getUrl(driver);
 	}
 	
-	@Test
+	@Test 
 	public void sauceDemo() throws InterruptedException{
 		loginPage.validLoginTest(driver);
-		addCartAndCheckout.verifyProductInCart(driver, "Sauce Labs Bike Light");
+		
+		addCartAndCheckout.verifyProductInCart(driver);
 		checkoutInfo.verifyCheckoutUserInfo(driver, "Murali", "Mulla", 632510);
 		checkoutOverviewInfo.VerifyCheckoutOverview(driver);
 		checkoutComplete.VerifyCheckoutCompleted(driver);
