@@ -130,6 +130,10 @@ public class ProductPageLocation {
 		return  readProductPropertiesFile().getProperty("SauceLabsBikeLightLabel");
 	}
 
+	public String getAllproductlocator() {
+		return  readProductPropertiesFile().getProperty("allproductlocator");
+	}
+
 	
 	
 

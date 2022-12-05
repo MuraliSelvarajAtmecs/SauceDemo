@@ -8793,3 +8793,593 @@ Price (high to low) Text is Present
 2022-12-01 20:26:07 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
 2022-12-01 20:26:07 INFO  CheckButtonElement:19 - Element Back Home is Enabled
 2022-12-01 20:26:07 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 09:59:41 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:02:34 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:02:39 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:02:39 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:02:39 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:02:39 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:02:39 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:02:39 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:02:40 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 10:02:40 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 10:02:40 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 10:02:40 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:02:40 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:02:43 INFO  AddCartAndCheckout:103 - Sauce Labs Backpack is Present
+2022-12-02 10:02:46 INFO  AddCartAndCheckout:107 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:02:49 INFO  AddCartAndCheckout:111 - $29.99 is Present
+2022-12-02 10:02:52 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 10:02:52 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 10:08:16 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:08:21 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:08:21 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:08:21 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:08:21 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:08:21 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:08:21 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:08:22 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:08:22 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:08:22 INFO  CheckAllProducts:54 - Sauce Labs Backpack is Present
+2022-12-02 10:08:22 INFO  CheckAllProducts:58 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:08:22 INFO  CheckAllProducts:62 - $29.99 is Present
+2022-12-02 10:10:14 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:14:46 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:14:46 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:14:46 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:14:46 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:14:46 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:14:46 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:14:47 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:14:47 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:14:47 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 10:14:47 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 10:14:47 INFO  CheckoutInfo:47 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 10:14:47 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 10:14:47 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 10:14:47 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 10:14:47 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 10:14:47 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 10:14:47 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 10:14:47 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 10:14:47 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 10:14:47 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 10:14:47 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 10:14:48 INFO  CheckoutOverview:67 - Total: 140.34
+2022-12-02 10:14:48 INFO  CheckoutOverview:71 - 140.34 Total is Matched
+2022-12-02 10:14:48 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 10:14:48 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 10:14:48 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 10:14:48 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 10:14:48 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 10:14:48 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 10:14:48 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 10:14:48 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 10:31:49 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:31:54 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:31:54 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:31:54 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:31:54 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:31:54 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:31:54 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:31:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:31:55 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:31:55 INFO  CheckAllProducts:47 - Sauce Labs Backpack is Present
+2022-12-02 10:31:55 INFO  CheckAllProducts:51 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:31:55 INFO  CheckAllProducts:55 - $29.99 is Present
+2022-12-02 10:33:53 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:33:57 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:33:57 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:33:57 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:33:57 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:33:57 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:33:58 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:33:58 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:33:58 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:33:58 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 10:33:58 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:33:58 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 10:35:05 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:35:10 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:35:10 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:35:10 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:35:10 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:35:10 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:35:10 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:35:10 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:35:10 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:35:10 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 10:35:10 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:35:11 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 10:36:32 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:36:36 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:36:36 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:36:36 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:36:37 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:36:37 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:36:37 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:36:37 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:36:37 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:36:37 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 10:36:37 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:36:37 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 10:38:32 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:38:37 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:38:37 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:38:37 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:38:37 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:38:37 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:38:37 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:38:38 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:38:38 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:38:38 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 10:38:38 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:38:38 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 10:40:20 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 10:40:25 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 10:40:25 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 10:40:25 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 10:40:25 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 10:40:25 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 10:40:25 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 10:40:26 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 10:40:26 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 10:40:26 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 10:40:26 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 10:40:26 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 12:52:45 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:52:51 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:52:51 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:52:51 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:52:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:52:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:52:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:52:51 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:52:51 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:52:51 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:52:51 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:52:51 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:52:51 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:52:51 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:52:51 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 12:52:51 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:52:51 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:53:46 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:53:50 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:53:50 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:53:51 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:53:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:53:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:53:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:53:51 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:53:51 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:53:51 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:53:51 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:53:51 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:53:51 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:53:51 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:53:51 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 12:53:51 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:53:51 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:54:25 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:54:30 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:54:30 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:54:30 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:54:30 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:54:30 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:54:30 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:54:30 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:54:30 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:54:30 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:54:30 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:54:30 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:54:30 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:54:30 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:54:31 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 12:54:31 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:54:31 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:56:14 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:56:19 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:56:19 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:56:19 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:56:19 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:56:19 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:56:19 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:56:19 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:56:20 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:56:20 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:56:20 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:56:20 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:56:20 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:56:20 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:56:20 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 12:56:20 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:56:20 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:57:20 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:57:25 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:57:25 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:57:25 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:57:25 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:57:25 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:57:26 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:57:26 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:57:26 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:57:26 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:57:26 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:57:26 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:57:26 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:57:29 INFO  AddCartAndCheckout:108 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:57:29 INFO  AddCartAndCheckout:111 - $29.99 is Present
+2022-12-02 12:57:29 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:57:29 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:58:09 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 12:58:14 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 12:58:14 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 12:58:14 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 12:58:14 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 12:58:14 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 12:58:14 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 12:58:15 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 12:58:15 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 12:58:15 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 12:58:15 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 12:58:15 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 12:58:15 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 12:58:15 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 12:58:15 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 12:58:15 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 12:58:15 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 12:58:15 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 12:58:15 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 12:58:15 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 12:58:15 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 12:58:15 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 12:58:15 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 12:58:15 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 12:58:18 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 12:58:18 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 12:58:19 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 12:58:19 INFO  CheckoutOverview:67 - Total: 32.39
+2022-12-02 12:58:19 INFO  CheckoutOverview:71 - 32.39 Total is Matched
+2022-12-02 12:58:19 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 12:58:19 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 12:58:19 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 12:58:19 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 12:58:19 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 12:58:19 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 12:58:19 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 12:58:19 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 13:55:12 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 13:55:18 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 13:55:18 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 13:55:18 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 13:55:18 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 13:55:18 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 13:55:18 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 13:55:18 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 13:55:18 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 13:55:18 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 13:55:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 13:55:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 13:55:18 INFO  AddCartAndCheckout:100 - Sauce Labs Backpack is Present
+2022-12-02 13:55:18 INFO  AddCartAndCheckout:103 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 13:55:18 INFO  AddCartAndCheckout:106 - $29.99 is Present
+2022-12-02 13:55:18 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 13:55:18 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 13:55:19 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 13:55:19 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 13:55:19 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 13:55:19 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 13:55:19 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 13:55:19 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 13:55:19 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 13:55:19 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 13:55:19 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 13:55:19 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 13:55:19 INFO  CheckoutOverview:67 - Total: 32.39
+2022-12-02 13:55:20 INFO  CheckoutOverview:71 - 32.39 Total is Matched
+2022-12-02 13:55:20 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 13:55:20 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 13:55:20 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 13:55:20 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 13:55:20 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 13:55:20 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 13:55:20 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 13:55:20 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 14:56:55 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 15:22:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 15:22:08 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 15:22:08 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 15:22:08 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 15:22:08 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 15:22:08 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 15:22:08 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 15:22:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 15:22:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 15:22:09 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 15:22:09 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 15:22:09 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 20:04:02 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:04:25 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:04:25 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:04:25 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:04:25 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:04:25 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:04:25 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:04:26 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:04:26 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:04:26 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 20:04:26 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 20:04:26 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 20:07:58 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:08:03 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:08:03 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:08:03 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:08:03 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:08:03 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:08:04 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:08:04 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:08:04 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:08:04 INFO  CheckAllProducts:48 - Sauce Labs Backpack is Present
+2022-12-02 20:08:04 INFO  CheckAllProducts:52 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 20:08:04 INFO  CheckAllProducts:56 - $29.99 is Present
+2022-12-02 20:20:43 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:20:48 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:20:48 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:20:48 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:20:48 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:20:48 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:20:48 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:21:46 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:21:51 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:21:51 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:21:51 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:21:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:21:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:21:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:22:24 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:22:29 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:22:29 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:22:29 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:22:29 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:22:29 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:22:29 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:28:55 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:29:00 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:29:00 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:29:00 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:29:00 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:29:00 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:29:00 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:29:00 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:00 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:00 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:00 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:00 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:00 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:00 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:01 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:01 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:01 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 20:29:01 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 20:29:02 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 20:29:02 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 20:29:02 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 20:29:02 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 20:29:02 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 20:29:02 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 20:29:02 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 20:29:02 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 20:29:02 INFO  CheckoutOverview:67 - Total: 0.0
+2022-12-02 20:29:02 INFO  CheckoutOverview:71 - 0.0 Total is Matched
+2022-12-02 20:29:02 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 20:29:02 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 20:29:02 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 20:29:02 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 20:29:02 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 20:29:03 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 20:29:03 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 20:29:03 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 20:29:42 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:29:46 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:29:46 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:29:46 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:29:46 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:29:46 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:29:46 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:29:47 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:29:47 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:29:47 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:29:47 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:29:47 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 20:29:47 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 20:29:47 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 20:29:47 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 20:29:47 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 20:29:47 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 20:29:47 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 20:29:47 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 20:29:47 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 20:29:47 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 20:29:47 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 20:29:47 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 20:29:47 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 20:29:48 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 20:29:48 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 20:29:48 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 20:29:48 INFO  CheckoutOverview:67 - Total: 0.0
+2022-12-02 20:29:48 INFO  CheckoutOverview:71 - 0.0 Total is Matched
+2022-12-02 20:29:48 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 20:29:48 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 20:29:48 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 20:29:48 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 20:29:48 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 20:29:48 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 20:29:48 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 20:29:48 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 20:31:51 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:31:55 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:31:55 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:31:55 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:31:55 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:31:55 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:31:55 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:31:55 INFO  CheckButtonElement:19 - Element Add To Cart is Enabled
+2022-12-02 20:31:55 INFO  CheckButtonAction:15 - Add To Cart is Clicked
+2022-12-02 20:31:55 INFO  CheckButtonElement:19 - Element Remove is Enabled
+2022-12-02 20:31:55 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:31:56 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:31:56 INFO  AddCartAndCheckout:52 - Sauce Labs Backpack is Present
+2022-12-02 20:31:56 INFO  AddCartAndCheckout:55 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is Present
+2022-12-02 20:31:56 INFO  AddCartAndCheckout:58 - $29.99 is Present
+2022-12-02 20:31:56 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:31:56 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:31:56 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 20:31:56 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 20:31:56 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 20:31:56 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 20:31:56 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 20:31:56 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 20:31:56 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 20:31:56 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 20:31:56 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 20:31:56 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 20:31:56 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 20:31:56 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 20:31:56 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 20:31:56 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 20:31:56 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 20:31:57 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 20:31:57 INFO  CheckoutOverview:67 - Total: 32.39
+2022-12-02 20:31:57 INFO  CheckoutOverview:71 - 32.39 Total is Matched
+2022-12-02 20:31:57 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 20:31:57 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 20:31:57 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 20:31:57 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 20:31:57 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 20:31:57 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 20:31:57 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 20:31:57 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-02 20:32:50 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:32:54 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:32:55 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:32:55 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:32:55 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:32:55 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:32:55 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:33:20 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:33:24 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:33:24 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:33:24 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:33:24 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:33:24 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:33:24 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:38:57 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:39:01 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:39:01 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:39:01 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:39:02 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:39:02 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:39:02 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:40:14 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:40:19 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:40:19 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:40:19 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:40:19 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:40:19 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:40:19 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:43:12 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:43:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:43:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:43:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:43:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:43:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:43:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:43:17 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:43:17 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:43:17 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:43:17 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:43:58 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:44:05 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:44:05 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:44:05 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:44:05 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:44:05 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:44:05 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:44:05 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:44:05 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:47:41 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-02 20:47:46 INFO  CheckElement:22 - Element Username is Present 
+2022-12-02 20:47:46 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-02 20:47:46 INFO  CheckElement:22 - Element Password is Present 
+2022-12-02 20:47:46 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-02 20:47:46 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-02 20:47:46 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-02 20:47:46 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-02 20:47:46 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-02 20:47:46 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-02 20:47:47 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-02 20:47:47 INFO  CheckoutInfo:50 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-02 20:47:47 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-02 20:47:47 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-02 20:47:47 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-02 20:47:47 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-02 20:47:47 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-02 20:47:47 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-02 20:47:47 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-02 20:47:47 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-02 20:47:47 INFO  CheckoutOverview:35 - CHECKOUT: OVERVIEW is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:39 - Payment Information: is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:43 - SauceCard #31337 is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:48 - Shipping Information: is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:53 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:57 - Item total:  is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:61 - Tax:  is Present
+2022-12-02 20:47:47 INFO  CheckoutOverview:67 - Total: 140.34
+2022-12-02 20:47:47 INFO  CheckoutOverview:71 - 140.34 Total is Matched
+2022-12-02 20:47:47 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-02 20:47:48 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-02 20:47:48 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-02 20:47:48 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-02 20:47:48 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-02 20:47:48 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-02 20:47:48 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-02 20:47:48 INFO  CheckButtonAction:15 - Back Home is Clicked

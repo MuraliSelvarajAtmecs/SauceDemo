@@ -5,6 +5,9 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.reskill.actions.CheckButtonAction;
@@ -38,7 +41,7 @@ public class CheckoutInfo {
 ////		buttonAction.buttonClick(driver, By.xpath(checkout.getcheckoutCancel()), excelData.get(5));
 //	}
 
-	public void verifyCheckoutUserInfo(WebDriver driver, String firstName, String lastName, int zip) throws InterruptedException {
+	public void verifyCheckoutUserInfo(WebDriver driver, String firstName, String lastName, int zip) {
 
 		List<String> excelData = excelRead.readExcelData(excelDataCheckoutInfoPage);
 

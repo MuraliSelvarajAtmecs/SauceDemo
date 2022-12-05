@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.reskill.actions.CheckButtonAction;
@@ -32,14 +33,15 @@ public class CheckAllProducts {
 	List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
 	
 	public void verifyAllProducts(WebDriver driver) {
+		List<WebElement> productButton = driver.findElements(By.xpath(productPage.getAllproductlocator()));
 		
-		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBackpackProductAddToCart1()),	productLabel.getAddToCartLabel());
-		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBikeLightProductAddToCart()),	productLabel.getAddToCartLabel());
-		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBoltTShirtProductAddToCart()), productLabel.getAddToCartLabel());
-		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsFleeceJacketProductAddToCart()), productLabel.getAddToCartLabel());
-		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsOnesieProductAddToCart()), productLabel.getAddToCartLabel());
-		buttonAction.buttonClick(driver, By.xpath(productPage.getTestAllTheThingsTShirtRedProductAddToCart()),	productLabel.getAddToCartLabel());
+		
+		for(int buttonAction=0; buttonAction<productButton.size(); buttonAction++) {
+			productButton.get(buttonAction).click();
+		}
+		
 		cart.cartImageButtonAction(driver);
+		
 		
 		String getSauceLabsBackpackCartLabelText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartLabel())).getText();
 		Assert.assertEquals(excelData.get(3), getSauceLabsBackpackCartLabelText, "Text NOT Matched");
@@ -52,11 +54,20 @@ public class CheckAllProducts {
 		String getSauceLabsBackpackCartPriceText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartPrice())).getText();
 		Assert.assertEquals(excelData.get(5), getSauceLabsBackpackCartPriceText, "Text NOT Matched");
 		logger.info(getSauceLabsBackpackCartPriceText + " is Present");
-
+		System.err.println("-------" + excelData.get(3));
+		System.err.println("-------" + excelData.get(4));
+		System.err.println("-------" + excelData.get(5));
+		System.err.println("-------" + excelData.get(6));
+		System.err.println("-------" + excelData.get(7));
+		System.err.println("-------" + excelData.get(8));
+		System.err.println("-------" + excelData.get(9));
+	
+		
 		String getSauceLabsBikeLightCartLabelText = driver.findElement(By.xpath(cartPage.getSauceLabsBikeLightLabel())).getText();
+		System.err.println("------" + getSauceLabsBikeLightCartLabelText);
 		Assert.assertEquals(excelData.get(6), getSauceLabsBikeLightCartLabelText, "Text NOT Matched");
 		logger.info(getSauceLabsBikeLightCartLabelText + " is Present");
-
+		
 
 
 		cart.cartCheckoutBittonAction(driver);

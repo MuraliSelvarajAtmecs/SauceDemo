@@ -14,6 +14,8 @@ import com.reskill.pages.ProductLabelLocation;
 import com.reskill.pages.ProductPageLocation;
 import com.reskill.testingutility.ExcelDataReads;
 
+import net.bytebuddy.implementation.bytecode.Throw;
+
 public class AddCartAndCheckout {
 	static Logger logger = Logger.getLogger(AddCartAndCheckout.class);
 	CheckButtonAction buttonAction = new CheckButtonAction();
@@ -73,14 +75,10 @@ public class AddCartAndCheckout {
 	public void cartCheckoutBittonAction(WebDriver driver) {
 		buttonAction.buttonClick(driver, By.xpath(cartPage.getSauceLabsBackpackCartCheckout()), cartPage.getcheckoutCartLabel());
 	}
-	public void verifyProductInCart(WebDriver driver) throws InterruptedException {
+	public void verifyProductInCart(WebDriver driver) {
 
 		List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
 		List<String> productLabels = excelRead.readExcelData(excelDataProductPage);
-		
-		
-//		System.out.println("Product Labels" + productLabels);
-//		System.out.println("++++++++++++++");
 		
 		String productSauceLabsBackpack = "Sauce Labs Backpack";
 		String productSauceLabsBikeLight = "Sauce Labs Bike Light";
@@ -89,31 +87,26 @@ public class AddCartAndCheckout {
 		String productSauceLabsOnesie = "Sauce Labs Onesie";
 		String productTestAllTheThingsTShirtRed= "Test.allTheThings() T-Shirt (Red)";
 		
-		for(int productLabels1 = 0; productLabels1<6; productLabels1++) {
-		String productlablesIt = productLabels.get(productLabels1);
+		for(int getProductLabels = 0; getProductLabels<6; getProductLabels++) {
+		String productlablesList = productLabels.get(getProductLabels);
 	
-		if(productSauceLabsBackpack.contains(productlablesIt)) {
+		if(productSauceLabsBackpack.contains(productlablesList)) {
 		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBackpackProductAddToCart1()),	productLabel.getAddToCartLabel());
 		buttonElement.isButtonEnable(driver, By.xpath(productPage.getSauceLabsBackpackProductRemoveFromCart1()), productLabel.getRemoveFromCartLabel());
 //		buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBackpackProductRemoveFromCart1()), productLabel.getRemoveFromCartLabel());
 		cartImageButtonAction(driver);
-		Thread.sleep(3000);
 		String getSauceLabsBackpackCartLabelText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartLabel())).getText();
 		Assert.assertEquals(excelData.get(3), getSauceLabsBackpackCartLabelText, "Text NOT Matched");
 		logger.info(getSauceLabsBackpackCartLabelText + " is Present");
-		Thread.sleep(3000);
 		String getSauceLabsBackpackCartDiscriptionText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartDiscription())).getText();
 		Assert.assertEquals(excelData.get(4), getSauceLabsBackpackCartDiscriptionText, "Text NOT Matched");
 		logger.info(getSauceLabsBackpackCartDiscriptionText + " is Present");
-		Thread.sleep(3000);
 		String getSauceLabsBackpackCartPriceText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartPrice())).getText();
 		Assert.assertEquals(excelData.get(5), getSauceLabsBackpackCartPriceText, "Text NOT Matched");
 		logger.info(getSauceLabsBackpackCartPriceText + " is Present");
-		Thread.sleep(3000);
 		cartCheckoutBittonAction(driver);
 		}
-//		else if(productSauceLabsBikeLight.contains(productlablesIt)) {
-//			System.out.println("----------------" + productlablesIt);
+//		else if(productSauceLabsBikeLight.contains(productlablesList)) {
 //			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBikeLightProductAddToCart()),	productLabel.getAddToCartLabel());
 ////			buttonElement.isButtonEnable(driver, By.xpath(productPage.getSauceLabsBackpackProductRemoveFromCart1()), productLabel.getRemoveFromCartLabel());
 ////			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBackpackProductRemoveFromCart1()), productLabel.getRemoveFromCartLabel());
@@ -134,8 +127,7 @@ public class AddCartAndCheckout {
 //			cartCheckoutBittonAction(driver);
 //			
 //			}
-//		else if(productSauceLabsBoltTShirt.contains(productlablesIt)) {
-//			System.out.println("----------------" + productlablesIt);
+//		else if(productSauceLabsBoltTShirt.contains(productlablesList)) {
 //			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBoltTShirtProductAddToCart()), productLabel.getAddToCartLabel());
 ////			buttonElement.isButtonEnable(driver, By.xpath(productPage.getSauceLabsBoltTShirtProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
 ////			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBoltTShirtProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
@@ -155,8 +147,7 @@ public class AddCartAndCheckout {
 //
 //			cartCheckoutBittonAction(driver);
 //		}
-//		else if(productSauceLabsFleeceJacket.contains(productlablesIt)) {
-//			System.out.println("----------------" + productlablesIt);
+//		else if(productSauceLabsFleeceJacket.contains(productlablesList)) {
 //			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsFleeceJacketProductAddToCart()), productLabel.getAddToCartLabel());
 //			buttonElement.isButtonEnable(driver, By.xpath(productPage.getSauceLabsFleeceJacketProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
 ////			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsFleeceJacketProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
@@ -176,8 +167,7 @@ public class AddCartAndCheckout {
 //
 //			cartCheckoutBittonAction(driver);
 //		}
-//		else if(productSauceLabsOnesie.contains(productlablesIt)) {
-//			System.out.println("----------------" + productlablesIt);
+//		else if(productSauceLabsOnesie.contains(productlablesList)) {
 //			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsOnesieProductAddToCart()), productLabel.getAddToCartLabel());
 //			buttonElement.isButtonEnable(driver, By.xpath(productPage.getSauceLabsOnesieProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
 ////			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsOnesieProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
@@ -197,8 +187,7 @@ public class AddCartAndCheckout {
 //
 //			cartCheckoutBittonAction(driver);
 //		}
-//		else if(productTestAllTheThingsTShirtRed.contains(productlablesIt)) {
-//			System.out.println("----------------" + productlablesIt);
+//		else if(productTestAllTheThingsTShirtRed.contains(productlablesList)) {
 //			buttonAction.buttonClick(driver, By.xpath(productPage.getTestAllTheThingsTShirtRedProductAddToCart()), productLabel.getAddToCartLabel());
 //			buttonElement.isButtonEnable(driver, By.xpath(productPage.getTestAllTheThingsTShirtRedProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
 ////			buttonAction.buttonClick(driver, By.xpath(productPage.getTestAllTheThingsTShirtRedProductRemoveFromCart()), productLabel.getRemoveFromCartLabel());
@@ -219,7 +208,6 @@ public class AddCartAndCheckout {
 //
 //			cartCheckoutBittonAction(driver);
 //		}
-	}
-	}
-	
+		}
+		}
 }
