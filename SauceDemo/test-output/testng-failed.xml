@@ -5,6 +5,7 @@
     <classes>
       <class name="com.reskill.testscripts.SauceDemoAllProductsVerification">
         <methods>
+          <include name="closeDriver"/>
           <include name="sauceDemo"/>
           <include name="selectBrowser"/>
         </methods>

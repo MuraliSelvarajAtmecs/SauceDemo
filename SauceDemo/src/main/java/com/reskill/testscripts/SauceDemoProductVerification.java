@@ -34,6 +34,8 @@ public class SauceDemoProductVerification {
 	public void sauceDemo() {
 		loginPage.validLoginTest(driver);
 		addCartAndCheckout.verifyProductInCart(driver);
+//		check.verifyAllProducts(driver);
+		checkoutInfo.verifyCheckoutUserInfo(driver, "Murali", "Mulla", 632510);
 		checkoutOverviewInfo.VerifyCheckoutOverview(driver);
 		checkoutComplete.VerifyCheckoutCompleted(driver);
 	}

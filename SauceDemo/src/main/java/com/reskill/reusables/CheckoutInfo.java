@@ -51,6 +51,8 @@ public class CheckoutInfo {
 		textField.enterText(driver, By.xpath(checkout.getCheckoutFirstName()), checkout.getCheckoutFnameLabel(), firstName);
 		textField.enterText(driver, By.xpath(checkout.checkoutLastName()), checkout.getcheckoutLnameLabel(), lastName);
 		textField.enterText(driver, By.xpath(checkout.getcheckoutzip()), checkout.getcheckoutZipLabel(), String.valueOf(zip));
+		WebDriverWait wait = new WebDriverWait(driver, 6000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(checkout.getcheckoutContinue())));
 		buttonAction.buttonClick(driver, By.xpath(checkout.getcheckoutContinue()), excelData.get(4));
 //		buttonAction.buttonClick(driver, By.xpath(checkout.getcheckoutCancel()), excelData.get(5));
 	}

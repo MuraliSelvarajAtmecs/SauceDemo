@@ -16,7 +16,7 @@ import com.reskill.pages.ProductPageLocation;
 import com.reskill.testingutility.ExcelDataReads;
 
 public class CheckAllProducts {
-	
+
 	static Logger logger = Logger.getLogger(CheckAllProducts.class);
 	ProductPageLocation productPage = new ProductPageLocation();
 	CheckButtonAction buttonAction = new CheckButtonAction();
@@ -24,56 +24,45 @@ public class CheckAllProducts {
 	ProductLabelLocation productLabel = new ProductLabelLocation();
 	AddCartAndCheckout cart = new AddCartAndCheckout();
 	public WebDriver driver;
-	
+
 	ExcelDataReads excelRead = new ExcelDataReads();
 	String excelDataYourCartPage = "yourCart";
 	String excelDataProductPage = "products";
 	CartPageLocation cartPage = new CartPageLocation();
-	
+
 	List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
-	
+
 	public void verifyAllProducts(WebDriver driver) {
-		List<WebElement> productButton = driver.findElements(By.xpath(productPage.getAllproductlocator()));
-		
-		
-		for(int buttonAction=0; buttonAction<productButton.size(); buttonAction++) {
-			productButton.get(buttonAction).click();
-		}
-		
-		cart.cartImageButtonAction(driver);
-		
-		
-		String getSauceLabsBackpackCartLabelText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartLabel())).getText();
-		Assert.assertEquals(excelData.get(3), getSauceLabsBackpackCartLabelText, "Text NOT Matched");
-		logger.info(getSauceLabsBackpackCartLabelText + " is Present");
+		List<WebElement> itemCart = driver.findElements(By.xpath(productPage.getAllItemlocator()));
+		List<WebElement> itemLabel = driver.findElements(By.xpath(productPage.getAllItemLabel()));
+		List<WebElement> itemDisc = driver.findElements(By.xpath(productPage.getAllItemDisc()));
+		List<WebElement> itemPrice = driver.findElements(By.xpath(productPage.getAllItemPrice()));
 
-		String getSauceLabsBackpackCartDiscriptionText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartDiscription())).getText();
-		Assert.assertEquals(excelData.get(4), getSauceLabsBackpackCartDiscriptionText, "Text NOT Matched");
-		logger.info(getSauceLabsBackpackCartDiscriptionText + " is Present");
+		for (int buttonAction = 0; buttonAction < itemCart.size(); buttonAction++) {
+			itemCart.get(buttonAction).click();
+			
+			cart.cartImageButtonAction(driver);
+				for (int itemLab = 0; itemLab < itemLabel.size(); itemLab++) {
+					String itemLabels = itemLabel.get(itemLab).getText();
+					System.out.println("The output of Item Labels is:- " + itemLabels);
+					
+					for (int itemDis = 0; itemDis < itemDisc.size(); itemDis++) {
+						String itemDiscriptions = itemDisc.get(itemDis).getText();
+						System.out.println("The output of Discription is:- " + itemDiscriptions);
+						
+						for (int itemPri = 0; itemPri < itemPrice.size(); itemPri++) {
+							String itemPrices = itemPrice.get(itemPri).getText();
+							System.out.println("The output of Discription is:- " + itemPrices);
+						}
 
-		String getSauceLabsBackpackCartPriceText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartPrice())).getText();
-		Assert.assertEquals(excelData.get(5), getSauceLabsBackpackCartPriceText, "Text NOT Matched");
-		logger.info(getSauceLabsBackpackCartPriceText + " is Present");
-		System.err.println("-------" + excelData.get(3));
-		System.err.println("-------" + excelData.get(4));
-		System.err.println("-------" + excelData.get(5));
-		System.err.println("-------" + excelData.get(6));
-		System.err.println("-------" + excelData.get(7));
-		System.err.println("-------" + excelData.get(8));
-		System.err.println("-------" + excelData.get(9));
+					}
+				}
+			
 	
-		
-		String getSauceLabsBikeLightCartLabelText = driver.findElement(By.xpath(cartPage.getSauceLabsBikeLightLabel())).getText();
-		System.err.println("------" + getSauceLabsBikeLightCartLabelText);
-		Assert.assertEquals(excelData.get(6), getSauceLabsBikeLightCartLabelText, "Text NOT Matched");
-		logger.info(getSauceLabsBikeLightCartLabelText + " is Present");
-		
+			cart.cartCheckoutBittonAction(driver);
 
-
-		cart.cartCheckoutBittonAction(driver);
-		
+		}
 
 	}
+
 }
-
-

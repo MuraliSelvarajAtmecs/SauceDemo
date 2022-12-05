@@ -48,67 +48,84 @@ static Logger logger = LogManager.getLogger(UserLoginPageLocation.class);
 		return readCartPropertiesFile().getProperty("discriptioHeaderText");
 	}
 	
-	
+	public String getSauceLabsBackpackQty() {
+		return readCartPropertiesFile().getProperty("sauceLabsBackpackQty");
+	}
 	public String getSauceLabsBackpackCartLabel() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartLabel");
 	}
-	
 	public String getSauceLabsBackpackCartDiscription() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartDiscription");
 	}
-	
 	public String getSauceLabsBackpackCartPrice() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartPrice");
 	}
 	
-	
+	public String getSauceLabsBikeLightQty() {
+		return readCartPropertiesFile().getProperty("sauceLabsBikeLightQty");
+	}
 	public String getSauceLabsBikeLightLabel() {
 		return readCartPropertiesFile().getProperty("sauceLabsBikeLightLabel");
 	}
-	
 	public String getSauceLabsBikeLightDiscription() {
 		return readCartPropertiesFile().getProperty("sauceLabsBikeLightCartDiscription");
 	}
-	
 	public String getSauceLabsBikeLightCartPrice() {
 		return readCartPropertiesFile().getProperty("sauceLabsBikeLightCartPrice");
 	}
 	
+	public String getSauceLabsBoltTShirtQty() {
+		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtQty");
+	}
 	public String getSauceLabsBoltTShirtLabel() {
 		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtLabel");
 	}
-	
 	public String getSauceLabsBoltTShirtDiscription() {
 		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtCartDiscription");
 	}
-	
 	public String getSauceLabsBoltTShirtCartPrice() {
 		return readCartPropertiesFile().getProperty("sauceLabsBoltTShirtCartPrice");
 	}
 	
+	public String getSauceLabsFleeceJacketQty() {
+		return readCartPropertiesFile().getProperty("sauceLabsFleeceJacketQty");
+	}
+	public String getSauceLabsFleeceJacketLabelLabel() {
+		return readCartPropertiesFile().getProperty("sauceLabsFleeceJacketLabel");
+	}
+	public String getSauceLabsFleeceJacketCartDiscription() {
+		return readCartPropertiesFile().getProperty("sauceLabsFleeceJacketCartDiscription");
+	}
+	public String getSauceLabsFleeceJacketCartPrice() {
+		return readCartPropertiesFile().getProperty("sauceLabsFleeceJacketCartPrice");
+	}
+	
+	public String getSauceLabsOnesieQty() {
+		return readCartPropertiesFile().getProperty("sauceLabsOnesieQty");
+	}
 	public String getSauceLabsOnesieLabel() {
 		return readCartPropertiesFile().getProperty("sauceLabsOnesieLabel");
 	}
-	
 	public String getSauceLabsOnesieDiscription() {
 		return readCartPropertiesFile().getProperty("sauceLabsOnesieCartDiscription");
 	}
-	
 	public String getSauceLabsOnesieCartPrice() {
 		return readCartPropertiesFile().getProperty("sauceLabsOnesieCartPrice");
 	}
 	
+	public String getTestAllTheThingsTShirtRedQty() {
+		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedQty");
+	}
 	public String getTestAllTheThingsTShirtRedLabel() {
 		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedLabel");
 	}
-	
 	public String getTestAllTheThingsTShirtRedDiscription() {
 		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedCartDiscription");
 	}
-	
 	public String getTestAllTheThingsTShirtRedCartPrice() {
 		return readCartPropertiesFile().getProperty("testAllTheThingsTShirtRedCartPrice");
 	}
+	
 	
 	public String getSauceLabsBackpackCartContinueShoping() {
 		return readCartPropertiesFile().getProperty("sauceLabsBackpackCartContinueShoping");
