@@ -71,8 +71,10 @@ public class AddCartAndCheckout {
 	public void cartImageButtonAction(WebDriver driver) {
 		buttonAction.buttonClick(driver, By.xpath(cartPage.getLogoButton()), cartPage.getCartImageClick());
 	}
-	
-	public void cartCheckoutBittonAction(WebDriver driver) {
+	public void cartContinueShopingAction(WebDriver driver) {
+		buttonAction.buttonClick(driver, By.xpath(cartPage.getSauceLabsBackpackCartContinueShoping()), cartPage.getcheckoutCartLabel());
+	}
+	public void cartCheckoutButtonAction(WebDriver driver) {
 		buttonAction.buttonClick(driver, By.xpath(cartPage.getSauceLabsBackpackCartCheckout()), cartPage.getcheckoutCartLabel());
 	}
 	public void verifyProductInCart(WebDriver driver) {
@@ -104,7 +106,7 @@ public class AddCartAndCheckout {
 		String getSauceLabsBackpackCartPriceText = driver.findElement(By.xpath(cartPage.getSauceLabsBackpackCartPrice())).getText();
 		Assert.assertEquals(excelData.get(5), getSauceLabsBackpackCartPriceText, "Text NOT Matched");
 		logger.info(getSauceLabsBackpackCartPriceText + " is Present");
-		cartCheckoutBittonAction(driver);
+		cartCheckoutButtonAction(driver);
 		}
 		else if(productSauceLabsBikeLight.contains(productLabels.get(1))) {
 			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsBikeLightProductAddToCart()),	productLabel.getAddToCartLabel());
@@ -124,7 +126,7 @@ public class AddCartAndCheckout {
 			Assert.assertEquals(excelData.get(8), getSauceLabsBikeLightCartPriceText, "Text NOT Matched");
 			logger.info(getSauceLabsBikeLightCartPriceText + " is Present");
 			
-			cartCheckoutBittonAction(driver);
+			cartCheckoutButtonAction(driver);
 			
 			}
 		else if(productSauceLabsBoltTShirt.contains(productLabels.get(2))) {
@@ -145,7 +147,7 @@ public class AddCartAndCheckout {
 			Assert.assertEquals(excelData.get(11), getSauceLabsBoltTShirtCartPriceText, "Text NOT Matched");
 			logger.info(getSauceLabsBoltTShirtCartPriceText + " is Present");
 
-			cartCheckoutBittonAction(driver);
+			cartCheckoutButtonAction(driver);
 		}
 		else if(productSauceLabsFleeceJacket.contains(productLabels.get(3))) {
 			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsFleeceJacketProductAddToCart()), productLabel.getAddToCartLabel());
@@ -165,7 +167,7 @@ public class AddCartAndCheckout {
 			Assert.assertEquals(excelData.get(14), getSauceLabsFleeceJacketCartPriceText, "Text NOT Matched");
 			logger.info(getSauceLabsFleeceJacketCartPriceText + " is Present");
 
-			cartCheckoutBittonAction(driver);
+			cartCheckoutButtonAction(driver);
 		}
 		else if(productSauceLabsOnesie.contains(productLabels.get(4))) {
 			buttonAction.buttonClick(driver, By.xpath(productPage.getSauceLabsOnesieProductAddToCart()), productLabel.getAddToCartLabel());
@@ -185,7 +187,7 @@ public class AddCartAndCheckout {
 			Assert.assertEquals(excelData.get(17), getSauceLabsOnesieCartPriceText, "Text NOT Matched");
 			logger.info(getSauceLabsOnesieCartPriceText + " is Present");
 
-			cartCheckoutBittonAction(driver);
+			cartCheckoutButtonAction(driver);
 		}
 		else if(productTestAllTheThingsTShirtRed.contains(productLabels.get(5))) {
 			buttonAction.buttonClick(driver, By.xpath(productPage.getTestAllTheThingsTShirtRedProductAddToCart()), productLabel.getAddToCartLabel());
@@ -206,7 +208,7 @@ public class AddCartAndCheckout {
 			Assert.assertEquals(excelData.get(20), getTestAllTheThingsTShirtRedCartPriceText, "Text NOT Matched");
 			logger.info(getTestAllTheThingsTShirtRedCartPriceText + " is Present");
 
-			cartCheckoutBittonAction(driver);
+			cartCheckoutButtonAction(driver);
 //		}
 		}
 		}

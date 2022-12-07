@@ -17,6 +17,7 @@ import com.reskill.pages.ProductPageLocation;
 import com.reskill.reusables.FilePath;
 
 public class ExcelDataReads {
+	
 	static Logger logger = Logger.getLogger(ExcelDataReads.class);
 	DataFormatter dataFormatter = new DataFormatter();
 	String homePage = FilePath.HOMEPAGE;

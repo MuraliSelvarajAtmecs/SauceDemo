@@ -33,36 +33,24 @@ public class CheckAllProducts {
 	List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
 
 	public void verifyAllProducts(WebDriver driver) {
-		List<WebElement> itemCart = driver.findElements(By.xpath(productPage.getAllItemlocator()));
+		List<WebElement> itemAddCart = driver.findElements(By.xpath(productPage.getAddAllItemlocator()));
 		List<WebElement> itemLabel = driver.findElements(By.xpath(productPage.getAllItemLabel()));
 		List<WebElement> itemDisc = driver.findElements(By.xpath(productPage.getAllItemDisc()));
 		List<WebElement> itemPrice = driver.findElements(By.xpath(productPage.getAllItemPrice()));
 
-		for (int buttonAction = 0; buttonAction < itemCart.size(); buttonAction++) {
-			itemCart.get(buttonAction).click();
-			
-			cart.cartImageButtonAction(driver);
-				for (int itemLab = 0; itemLab < itemLabel.size(); itemLab++) {
-					String itemLabels = itemLabel.get(itemLab).getText();
-					System.out.println("The output of Item Labels is:- " + itemLabels);
-					
-					for (int itemDis = 0; itemDis < itemDisc.size(); itemDis++) {
-						String itemDiscriptions = itemDisc.get(itemDis).getText();
-						System.out.println("The output of Discription is:- " + itemDiscriptions);
-						
-						for (int itemPri = 0; itemPri < itemPrice.size(); itemPri++) {
-							String itemPrices = itemPrice.get(itemPri).getText();
-							System.out.println("The output of Discription is:- " + itemPrices);
-						}
-
-					}
-				}
-			
+		for (int buttonAction = 0; buttonAction < itemAddCart.size(); buttonAction++) {
+			itemAddCart.get(buttonAction).click();
+			String itemLabels = itemLabel.get(buttonAction).getText();
+			System.out.println("The output of Item Labels is:- " + itemLabels);
+			String itemDiscriptions = itemDisc.get(buttonAction).getText();
+			System.out.println("The output of Discription is:- " + itemDiscriptions);
+			String itemPrices = itemPrice.get(buttonAction).getText();
+			System.out.println("The output of Discription is:- " + itemPrices);
 	
-			cart.cartCheckoutBittonAction(driver);
-
 		}
-
+//		cart.cartImageButtonAction(driver);
+//		cart.cartContinueShopingAction(driver);
+//		cart.cartCheckoutButtonAction(driver);
 	}
 
 }

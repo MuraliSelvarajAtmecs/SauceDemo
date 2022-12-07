@@ -147,5 +147,18 @@ static Logger logger = LogManager.getLogger(UserLoginPageLocation.class);
 	public String getCartImageClick() {
 		return readCartPropertiesFile().getProperty("cartImage");
 	}
+	public String getCartItemLabel() {
+		return readCartPropertiesFile().getProperty("cartItemLabel");
+	}
+	public String getCartItemDisc() {
+		return readCartPropertiesFile().getProperty("cartItemDisc");
+	}
+	public String getCartItemPrice() {
+		return readCartPropertiesFile().getProperty("cartItemPrice");
+	}
+	public String getCartItemQTY() {
+		return readCartPropertiesFile().getProperty("cartItemPQTY");
+	}
+	
 	
 }

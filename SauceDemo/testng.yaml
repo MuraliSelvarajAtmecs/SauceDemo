@@ -1,0 +1,4 @@
+name: Suite
+configFailurePolicy: skip
+suite-files:
+  - test-suite/SauceDemoBrowserLaunch.xml

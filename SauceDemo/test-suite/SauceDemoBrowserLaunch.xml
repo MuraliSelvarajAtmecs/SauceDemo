@@ -3,24 +3,15 @@
 <suite name="BrowserSuite">
 	<test name="SauceDemo">
 		<classes>
-			<class name="com.reskill.testscripts.SauceDemoLoginTest">
+			<class name="com.reskill.testscripts.SauceDemoAllProductsVerification">
 				<methods>
 					
 					
 					<include name="CheckUserNamesandPasswordTextPresent"/>
 					
-					<include name="validLoginTest"/>
+					<include name="selectBrowser"/>
 					
-					<include name="productVerification"/>
-					
-					<include name="verifyProductInCart"/>
-					
-					<include name="checkOut"/>
-					
-					<include name="checkoutOverview"/>
-					
-					<include name="checkoutComplete"/>
-					
+					<include name="sauceDemo"/>
 					
 				</methods>
 			</class>

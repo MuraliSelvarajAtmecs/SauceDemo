@@ -24,14 +24,14 @@ public class SauceDemoAllProductsVerification {
 	CheckoutComplete checkoutComplete = new CheckoutComplete();
 	CheckAllProducts checkAllProcucts = new CheckAllProducts();
 	AddCart addCartAndCheckout = new AddCart();
-	
+	  
 	@BeforeTest
 	public void selectBrowser() {
 		driver = requestDriver.getDriver();
 		requestDriver.getUrl(driver);
 	}
 	
-	@Test 
+	@Test
 	public void sauceDemo(){
 		loginPage.validLoginTest(driver);
 		addCartAndCheckout.verifyProductInCart(driver);
