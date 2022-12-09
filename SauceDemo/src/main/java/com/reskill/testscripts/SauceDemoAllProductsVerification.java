@@ -11,7 +11,9 @@ import com.reskill.reusables.CheckAllProducts;
 import com.reskill.reusables.CheckoutComplete;
 import com.reskill.reusables.CheckoutInfo;
 import com.reskill.reusables.CheckoutOverview;
+import com.reskill.reusables.GetProductDetails;
 import com.reskill.reusables.UserLoginPage;
+import com.reskill.reusables.VerifyCartDetails;
 
 public class SauceDemoAllProductsVerification {
 	
@@ -24,6 +26,10 @@ public class SauceDemoAllProductsVerification {
 	CheckoutComplete checkoutComplete = new CheckoutComplete();
 	CheckAllProducts checkAllProcucts = new CheckAllProducts();
 	AddCart addCartAndCheckout = new AddCart();
+	GetProductDetails getProd = new GetProductDetails();
+	VerifyCartDetails cartDetails = new VerifyCartDetails();
+	GetProductDetails prod = new GetProductDetails();
+	
 	  
 	@BeforeTest
 	public void selectBrowser() {
@@ -34,7 +40,8 @@ public class SauceDemoAllProductsVerification {
 	@Test
 	public void sauceDemo(){
 		loginPage.validLoginTest(driver);
-		addCartAndCheckout.verifyProductInCart(driver);
+		cartDetails.verifyCartProduct(driver);
+//		addCartAndCheckout.verifyProductInCart(driver);
 		checkoutInfo.verifyCheckoutUserInfo(driver, "Murali", "Mulla", 632510);
 		checkoutOverviewInfo.VerifyCheckoutOverview(driver);
 		checkoutComplete.VerifyCheckoutCompleted(driver);

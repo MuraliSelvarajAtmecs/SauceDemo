@@ -37,31 +37,33 @@ public class AddCart {
 	Assertion assertion = new Assertion();
 
 	public void verifyProductInCart(WebDriver driver) {
-		List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
+//		List<String> excelData = excelRead.readExcelData(excelDataYourCartPage);
 		addAllItems.addAllItems(driver);
 		cartImage.cartImageButtonAction(driver);
 
+		List<WebElement> cartItemQTY = driver.findElements(By.xpath(cartPage.getCartItemQTY()));
 		List<WebElement> cartItemLabel = driver.findElements(By.xpath(cartPage.getCartItemLabel()));
 		List<WebElement> cartItemDisc = driver.findElements(By.xpath(cartPage.getCartItemDisc()));
 		List<WebElement> cartItemPrice = driver.findElements(By.xpath(cartPage.getCartItemPrice()));
 		
-		List<Map<String, String>> testExceldata = testData.readExcelData();
-		for(int row=0; row<testExceldata.size(); row++) {
+		List<Map<String, String>> verifyExceldata = testData.readExcelData();
+		for(int row=0; row<verifyExceldata.size(); row++) {
 
 //			String textData = cartItemLabel.get(row).getText();
-//			String productTxt = studentdata.get(row).get("Product Title"); 
+//			String productTxt = verifyExceldata.get(row).get("Product Title"); 
 //			assertion.assertEquals(textData, productTxt, "validate product text");
-			assertion.assertEquals(cartItemLabel.get(row).getText(), testExceldata.get(row).get("ProductTitle"), "validate Product Lable");
+
+			assertion.assertEquals(cartItemQTY.get(row).getText(), verifyExceldata.get(row).get("QTY"), "validate Product Quantity");
+			logger.info("Product Quantity is: " + cartItemQTY.get(row).getText());
+			assertion.assertEquals(cartItemLabel.get(row).getText(), verifyExceldata.get(row).get("ProductTitle"), "validate Product Lable");
 			logger.info("Product Label is: " + cartItemLabel.get(row).getText());
-			assertion.assertEquals(cartItemDisc.get(row).getText(), testExceldata.get(row).get("ProductDiscription"), "validate Product Description");
+			assertion.assertEquals(cartItemDisc.get(row).getText(), verifyExceldata.get(row).get("ProductDiscription"), "validate Product Description");
 			logger.info("Product Description is: " + cartItemDisc.get(row).getText());
-			assertion.assertEquals(cartItemPrice.get(row).getText(), testExceldata.get(row).get("ProductPrice"), "validate Product Price");
+			assertion.assertEquals(cartItemPrice.get(row).getText(), verifyExceldata.get(row).get("ProductPrice"), "validate Product Price");
 			logger.info("Product Price is: " + cartItemPrice.get(row).getText());
 			cartImage.cartImageButtonAction(driver);
 		}
-
 		cartButton.cartCheckoutButtonAction(driver);
-//		
 		}
 }
 

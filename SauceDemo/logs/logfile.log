@@ -2036,3 +2036,1505 @@
 2022-12-08 01:58:41 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
 2022-12-08 01:58:41 INFO  CheckButtonElement:19 - Element Back Home is Enabled
 2022-12-08 01:58:41 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-08 10:35:56 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 10:36:00 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 10:36:00 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 10:36:00 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 10:36:00 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 10:36:00 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 10:36:00 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 10:40:44 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 10:40:48 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 10:40:48 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 10:40:48 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 10:40:48 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 10:40:48 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 10:40:48 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 10:40:48 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 10:40:48 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:40:49 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:44:59 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 10:45:02 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 10:45:02 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 10:45:02 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 10:45:02 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 10:45:02 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 10:45:03 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 10:45:03 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 10:45:03 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:45:03 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:28 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 10:58:33 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 10:58:33 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 10:58:33 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 10:58:33 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 10:58:33 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 10:58:33 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 10:58:33 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 10:58:33 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:33 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:33 INFO  AddCartAndCheckout:55 - Product Label is: Sauce Labs Backpack
+2022-12-08 10:58:33 INFO  AddCartAndCheckout:57 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 10:58:33 INFO  AddCartAndCheckout:59 - Product Price is: $29.99
+2022-12-08 10:58:33 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:55 - Product Label is: Sauce Labs Bike Light
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:57 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:59 - Product Price is: $9.99
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:55 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:57 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:59 - Product Price is: $15.99
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:55 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:57 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:59 - Product Price is: $49.99
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:55 - Product Label is: Sauce Labs Onesie
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:57 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:59 - Product Price is: $7.99
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:55 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:57 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 10:58:34 INFO  AddCartAndCheckout:59 - Product Price is: $15.99
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 10:58:34 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 10:58:34 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 10:58:34 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-08 10:58:34 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-08 10:58:34 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-08 10:58:34 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-08 10:58:34 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-08 10:58:35 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-08 10:58:35 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-08 10:58:35 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-08 10:58:35 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-08 10:58:35 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-08 10:58:35 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-08 10:58:35 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-08 10:58:35 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-08 10:58:35 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-08 10:58:35 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-08 10:58:35 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-08 10:58:35 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-08 10:58:35 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-08 10:58:35 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-08 10:58:35 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-08 11:20:23 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:20:27 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:20:27 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:20:27 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:20:27 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:20:27 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:20:27 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:20:27 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:20:27 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:20:28 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:27:47 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:27:50 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:27:50 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:27:50 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:27:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:27:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:27:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:27:51 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:27:51 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:27:51 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Sauce Labs Backpack
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $29.99
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Sauce Labs Bike Light
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $9.99
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $15.99
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Sauce Labs Fleece Jacket
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $49.99
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Sauce Labs Onesie
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $7.99
+2022-12-08 11:27:51 INFO  GetProductDetails:35 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:27:51 INFO  GetProductDetails:36 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:27:51 INFO  GetProductDetails:37 - Label: $15.99
+2022-12-08 11:30:37 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:30:40 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:30:41 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:30:41 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:30:41 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:30:41 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:30:41 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:30:41 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:30:41 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:30:41 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:31:32 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:31:36 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:31:36 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:31:36 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:31:36 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:31:36 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:31:37 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:31:37 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:31:37 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:31:37 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 11:31:37 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:31:37 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:31:37 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:31:37 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 11:32:55 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:32:58 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:32:58 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:32:58 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:32:58 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:32:58 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:32:59 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:32:59 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:32:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:32:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:33:54 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:33:58 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:33:58 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:33:58 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:33:58 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:33:58 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:33:58 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:33:58 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:33:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:33:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:34:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:34:43 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:34:43 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:34:43 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:34:43 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:34:43 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:34:44 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:34:44 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:34:44 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:34:44 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:36:18 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:36:22 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:36:22 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:36:22 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:36:22 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:36:22 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:36:22 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:36:22 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:36:22 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:36:22 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:36:23 INFO  AddCartAndCheckout:55 - Product Label is: 1
+2022-12-08 11:37:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:37:07 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:37:07 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:37:07 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:37:07 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:37:07 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:37:07 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:37:07 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:37:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:07 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:07 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:07 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-08 11:37:07 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:37:07 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-08 11:37:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:57 - Product Label is: 1
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:37:08 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:37:08 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 11:37:08 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 11:47:13 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:47:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:47:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:47:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:47:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:47:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:47:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:47:17 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 11:47:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 11:47:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 11:47:18 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 11:47:18 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:47:18 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:47:18 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 11:55:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:55:43 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:55:43 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:55:43 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:55:44 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:55:44 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:55:44 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:55:44 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:56:30 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:56:34 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:56:34 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:56:34 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:56:34 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:56:34 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:56:34 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:56:34 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:57:22 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:57:26 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:57:26 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:57:26 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:57:26 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:57:26 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:57:26 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:57:26 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:58:30 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:58:34 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:58:34 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:58:34 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:58:34 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:58:34 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:58:34 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:58:35 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:59:17 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:59:20 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:59:20 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:59:20 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:59:20 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:59:20 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:59:21 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 11:59:21 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 11:59:52 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 11:59:55 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 11:59:56 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 11:59:56 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 11:59:56 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 11:59:56 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 11:59:56 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 12:03:14 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 12:03:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 12:03:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 12:03:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 12:03:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 12:03:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 12:03:18 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:03:18 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:03:46 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 12:03:49 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 12:03:50 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 12:03:50 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 12:03:50 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 12:03:50 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 12:03:50 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:03:50 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:03:50 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 12:03:50 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 12:03:50 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 12:03:50 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:50 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 12:03:50 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:03:50 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 12:03:50 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:50 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 12:03:50 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:03:50 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 12:03:50 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:50 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 12:03:50 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:03:50 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 12:03:50 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:50 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 12:03:50 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:03:50 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 12:03:51 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:51 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 12:03:51 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:03:51 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 12:03:51 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:03:51 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:03:51 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:03:51 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 12:32:33 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 12:32:37 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 12:32:37 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 12:32:37 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 12:32:37 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 12:32:37 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 12:32:37 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:32:37 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:32:37 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 12:32:37 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 12:32:38 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 12:32:38 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 12:32:38 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:32:38 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:32:38 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 12:33:17 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 12:33:21 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 12:33:21 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 12:33:21 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 12:33:21 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 12:33:21 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 12:33:21 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 12:33:21 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 12:33:21 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 12:33:22 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 12:33:22 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:36 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 16:13:40 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 16:13:41 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 16:13:41 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 16:13:41 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 16:13:41 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 16:13:41 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 16:13:41 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 16:13:41 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:41 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:41 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:41 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-08 16:13:41 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 16:13:42 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:42 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 16:13:43 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 16:13:54 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 16:13:58 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 16:13:58 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 16:13:58 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 16:13:58 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 16:13:58 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 16:13:58 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 16:13:58 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 16:13:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-08 16:13:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-08 16:13:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 16:13:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:13:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 16:13:59 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-08 16:14:00 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:14:00 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-08 16:14:00 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:14:00 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 16:14:00 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 16:14:00 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 16:14:00 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 16:14:00 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 16:14:00 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 16:14:00 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-08 16:14:00 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-08 16:14:00 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-08 16:14:00 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-08 16:14:00 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-08 16:14:00 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-08 16:14:00 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-08 16:14:00 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-08 16:14:01 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-08 16:14:01 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-08 16:14:01 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-08 16:14:01 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-08 16:14:01 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-08 16:14:01 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-08 16:14:01 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-08 16:14:01 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-08 16:14:01 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-08 16:14:01 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-08 16:14:01 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-08 16:14:01 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-08 17:05:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 17:05:08 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 17:05:08 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 17:05:08 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 17:05:08 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 17:05:08 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 17:05:08 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 17:05:08 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 17:05:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 17:05:09 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:05:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:05:09 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 17:05:10 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 17:05:10 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-08 17:05:10 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-08 17:05:10 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-08 17:05:10 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-08 17:05:10 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-08 17:05:10 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-08 17:05:10 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-08 17:05:10 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-08 17:05:10 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-08 17:05:10 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-08 17:05:10 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-08 17:05:10 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-08 17:05:10 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-08 17:05:10 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-08 17:05:11 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-08 17:05:11 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-08 17:05:11 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-08 17:05:11 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-08 17:05:11 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-08 17:05:11 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-08 17:05:11 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-08 17:05:11 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-08 17:05:11 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-08 17:05:11 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-08 17:05:11 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-08 17:05:11 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-08 17:15:12 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 17:15:16 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 17:15:16 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 17:15:16 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 17:15:16 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 17:15:16 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 17:15:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 17:15:17 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 17:15:17 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:17 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-08 17:15:17 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:17 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-08 17:15:17 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:17 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 17:15:17 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 17:15:17 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-08 17:15:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-08 17:15:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 17:15:18 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-08 17:15:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 17:15:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 17:15:18 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-08 17:15:18 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-08 17:15:18 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-08 17:15:18 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-08 17:15:18 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-08 17:15:18 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-08 17:15:18 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-08 17:15:18 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-08 17:15:18 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-08 17:15:19 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-08 17:15:19 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-08 17:15:19 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-08 17:15:19 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-08 17:15:19 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-08 17:15:19 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-08 17:15:19 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-08 17:15:19 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-08 17:15:19 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-08 17:15:19 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-08 17:15:19 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-08 17:15:19 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-08 17:15:20 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-08 20:08:02 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:08:06 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:08:07 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:08:07 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:08:07 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:08:07 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:08:07 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 20:08:07 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:08:07 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 20:08:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 20:08:07 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 20:08:07 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:07 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 20:08:07 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 20:08:07 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 20:08:07 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:07 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 20:08:07 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 20:08:07 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 20:08:07 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:07 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 20:08:07 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 20:08:07 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 20:08:07 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:07 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 20:08:07 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 20:08:07 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 20:08:08 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:08 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 20:08:08 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 20:08:08 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 20:08:08 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:08:08 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 20:08:08 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 20:08:08 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 20:09:59 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:10:03 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:10:03 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:10:03 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:10:03 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:10:03 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:10:03 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 20:10:03 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:10:03 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 20:10:04 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 20:10:04 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Sauce Labs Backpack
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $29.99
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Sauce Labs Bike Light
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $9.99
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Sauce Labs Bolt T-Shirt
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Sauce Labs Fleece Jacket
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $49.99
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Sauce Labs Onesie
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $7.99
+2022-12-08 20:10:04 INFO  GetProductDetails:36 - Label: 1
+2022-12-08 20:10:04 INFO  GetProductDetails:37 - Label: Test.allTheThings() T-Shirt (Red)
+2022-12-08 20:10:04 INFO  GetProductDetails:38 - Label: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 20:10:04 INFO  GetProductDetails:39 - Label: $15.99
+2022-12-08 20:25:47 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:25:51 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:25:51 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:25:51 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:25:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:25:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:25:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Sauce Labs Backpack
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $29.99
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bike Light
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $9.99
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Sauce Labs Bolt T-Shirt
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Sauce Labs Fleece Jacket
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $49.99
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Sauce Labs Onesie
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $7.99
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: 1
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: Test.allTheThings() T-Shirt (Red)
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-08 20:25:51 INFO  AddProdFromExcel:20 - data is: $15.99
+2022-12-08 20:29:31 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:29:35 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:29:35 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:29:35 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:29:35 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:29:35 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:29:35 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:31:13 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:31:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:31:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:31:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:31:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:31:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:31:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:31:48 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:31:52 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:31:52 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:31:52 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:31:53 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:31:53 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:31:53 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:51:00 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:51:04 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:51:04 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:51:05 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:51:05 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:51:05 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:51:05 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:51:05 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 20:51:05 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 20:51:05 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 20:52:19 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 20:52:23 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 20:52:23 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 20:52:23 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 20:52:23 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 20:52:23 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 20:52:23 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 20:52:23 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 20:52:23 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 20:52:24 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 21:01:38 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 21:01:41 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 21:01:41 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 21:01:41 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 21:01:42 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 21:01:42 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 21:01:42 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 21:01:42 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 21:01:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 21:01:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 21:04:54 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 21:04:58 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 21:04:58 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 21:04:58 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 21:04:58 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 21:04:58 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 21:04:58 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 21:04:58 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 21:04:59 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 21:04:59 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 21:06:24 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 21:06:28 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 21:06:28 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 21:06:28 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 21:06:28 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 21:06:28 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 21:06:28 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 21:06:28 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 21:06:28 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 21:06:28 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 21:07:47 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 21:07:51 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 21:07:51 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 21:07:51 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 21:07:51 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 21:07:51 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 21:07:51 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 21:07:51 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 21:07:51 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 21:07:51 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:39:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:39:44 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:39:44 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:39:44 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:39:44 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:39:45 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:39:45 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:39:45 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:39:45 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:39:45 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:40:33 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:40:37 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:40:37 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:40:37 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:40:37 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:40:37 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:40:37 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:40:37 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:40:37 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:40:38 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:41:05 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:41:09 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:41:09 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:41:09 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:41:09 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:41:09 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:41:09 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:41:09 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:41:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:41:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:41:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:41:44 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:41:44 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:41:44 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:41:44 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:41:44 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:41:44 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:41:44 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:41:44 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:41:44 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:43:37 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:43:42 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:43:42 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:43:42 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:43:42 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:43:42 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:43:42 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:43:42 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:43:42 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:43:42 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:46:35 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:46:39 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:46:40 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:46:40 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:46:40 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:46:40 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:46:40 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:46:40 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:46:40 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:46:40 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:48:13 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:48:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:48:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:48:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:48:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:48:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:48:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:48:18 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:48:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:48:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:49:20 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:49:24 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:49:24 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:49:24 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:49:24 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:49:24 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:49:25 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:49:25 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:49:25 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:49:25 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:51:16 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:51:20 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:51:20 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:51:20 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:51:20 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:51:20 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:51:20 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:51:20 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:51:20 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:51:20 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:52:04 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:52:08 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:52:08 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:52:08 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:52:08 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:52:08 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:52:09 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:52:09 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:52:09 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:52:09 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:55:04 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:55:08 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:55:08 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:55:08 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:55:08 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:55:08 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:55:08 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:55:08 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:55:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:55:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-08 23:56:32 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-08 23:56:36 INFO  CheckElement:22 - Element Username is Present 
+2022-12-08 23:56:36 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-08 23:56:36 INFO  CheckElement:22 - Element Password is Present 
+2022-12-08 23:56:36 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-08 23:56:36 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-08 23:56:36 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-08 23:56:36 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-08 23:56:36 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-08 23:56:36 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:00:33 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:00:37 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:00:38 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:00:38 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:00:38 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:00:38 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:00:38 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:00:38 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:00:38 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:00:38 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:10:05 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:10:10 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:10:10 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:10:10 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:10:10 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:10:10 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:10:10 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:10:10 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:10:10 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:10:10 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:11:33 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:11:37 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:11:37 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:11:37 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:11:37 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:11:37 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:11:38 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:11:38 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:11:38 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:11:38 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:13:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:13:44 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:13:44 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:13:44 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:13:44 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:13:44 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:13:44 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:13:45 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:13:45 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:13:45 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:15:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:15:07 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:15:08 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:15:08 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:15:08 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:15:08 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:15:08 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:15:08 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:15:08 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:15:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:17:01 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:17:06 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:17:06 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:17:06 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:17:06 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:17:06 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:17:06 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:17:06 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:17:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:17:07 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 00:22:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 00:22:07 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 00:22:07 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 00:22:07 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 00:22:07 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 00:22:07 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 00:22:07 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 00:22:07 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 00:22:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 00:22:08 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:10:43 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:10:48 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:10:48 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:10:48 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:10:48 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:10:48 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:10:49 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:10:49 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:10:49 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:10:49 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:21 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:12:25 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:12:25 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:12:25 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:12:25 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:12:25 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:12:25 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:12:25 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:12:25 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:25 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:49 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:12:53 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:12:53 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:12:53 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:12:53 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:12:53 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:12:53 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:12:53 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:12:53 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:53 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:53 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:53 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Backpack
+2022-12-09 02:12:53 INFO  AddCartAndCheckout:61 - Product Description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+2022-12-09 02:12:53 INFO  AddCartAndCheckout:63 - Product Price is: $29.99
+2022-12-09 02:12:53 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:53 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bike Light
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:61 - Product Description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:63 - Product Price is: $9.99
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Bolt T-Shirt
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:61 - Product Description is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Fleece Jacket
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:61 - Product Description is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:63 - Product Price is: $49.99
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:59 - Product Label is: Sauce Labs Onesie
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:61 - Product Description is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:63 - Product Price is: $7.99
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:57 - Product Quantity is: 1
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:59 - Product Label is: Test.allTheThings() T-Shirt (Red)
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:61 - Product Description is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+2022-12-09 02:12:54 INFO  AddCartAndCheckout:63 - Product Price is: $15.99
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:12:54 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-09 02:12:54 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-09 02:12:54 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-09 02:12:54 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-09 02:12:55 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-09 02:12:55 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-09 02:12:55 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-09 02:12:55 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-09 02:12:55 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-09 02:12:55 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-09 02:12:55 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-09 02:12:55 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-09 02:12:55 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-09 02:12:55 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-09 02:12:55 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-09 02:12:55 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-09 02:12:55 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-09 02:12:56 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-09 02:12:56 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-09 02:12:56 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-09 02:12:56 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-09 02:12:56 INFO  CheckButtonAction:15 - Back Home is Clicked
+2022-12-09 02:14:05 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:14:09 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:14:09 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:14:09 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:14:09 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:14:09 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:14:09 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:14:10 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:14:10 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:14:10 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:14:57 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:15:01 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:15:01 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:15:01 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:15:01 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:15:01 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:15:02 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:15:02 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:15:02 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:15:02 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:19:13 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:19:17 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:19:17 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:19:17 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:19:17 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:19:17 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:19:17 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:19:17 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:19:18 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:19:18 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:19:40 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:19:44 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:19:44 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:19:44 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:19:44 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:19:44 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:19:44 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:19:45 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:19:45 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:20:03 INFO  SelectWebDriver:25 - Chrome Browser Loaded
+2022-12-09 02:20:07 INFO  CheckElement:22 - Element Username is Present 
+2022-12-09 02:20:07 INFO  CheckTextField:16 - Entered Username is: standard_user
+2022-12-09 02:20:07 INFO  CheckElement:22 - Element Password is Present 
+2022-12-09 02:20:07 INFO  CheckTextField:16 - Entered Password is: secret_sauce
+2022-12-09 02:20:07 INFO  CheckButtonElement:19 - Element Login Button is Enabled
+2022-12-09 02:20:07 INFO  CheckButtonAction:15 - Login Button is Clicked
+2022-12-09 02:20:07 INFO  AddAllItemsInCart:19 - Button text is: ADD TO CART
+2022-12-09 02:20:07 INFO  CheckButtonElement:19 - Element Cart Logo Image is Enabled
+2022-12-09 02:20:07 INFO  CheckButtonAction:15 - Cart Logo Image is Clicked
+2022-12-09 02:20:08 INFO  CheckButtonElement:19 - Element YOUR CART CHECKOUT is Enabled
+2022-12-09 02:20:08 INFO  CheckButtonAction:15 - YOUR CART CHECKOUT is Clicked
+2022-12-09 02:20:08 INFO  CheckoutInfo:49 - CHECKOUT: YOUR INFORMATION is Present
+2022-12-09 02:20:08 INFO  CheckElement:22 - Element First Name is Present 
+2022-12-09 02:20:08 INFO  CheckTextField:16 - Entered First Name is: Murali
+2022-12-09 02:20:08 INFO  CheckElement:22 - Element Last Name is Present 
+2022-12-09 02:20:08 INFO  CheckTextField:16 - Entered Last Name is: Mulla
+2022-12-09 02:20:08 INFO  CheckElement:22 - Element Zip/Postal Code is Present 
+2022-12-09 02:20:08 INFO  CheckTextField:16 - Entered Zip/Postal Code is: 632510
+2022-12-09 02:20:08 INFO  CheckButtonElement:19 - Element Continue is Enabled
+2022-12-09 02:20:08 INFO  CheckButtonAction:15 - Continue is Clicked
+2022-12-09 02:20:08 INFO  CheckoutOverview:34 - CHECKOUT: OVERVIEW is Present
+2022-12-09 02:20:08 INFO  CheckoutOverview:38 - Payment Information: is Present
+2022-12-09 02:20:08 INFO  CheckoutOverview:42 - SauceCard #31337 is Present
+2022-12-09 02:20:09 INFO  CheckoutOverview:47 - Shipping Information: is Present
+2022-12-09 02:20:09 INFO  CheckoutOverview:52 - FREE PONY EXPRESS DELIVERY! is Present
+2022-12-09 02:20:09 INFO  CheckoutOverview:56 - Item total:  is Present
+2022-12-09 02:20:09 INFO  CheckoutOverview:60 - Tax:  is Present
+2022-12-09 02:20:09 INFO  CheckoutOverview:66 - Total: 140.34
+2022-12-09 02:20:09 INFO  CheckoutOverview:70 - 140.34 Total is Matched
+2022-12-09 02:20:09 INFO  CheckButtonElement:19 - Element Finish is Enabled
+2022-12-09 02:20:09 INFO  CheckButtonAction:15 - Finish is Clicked
+2022-12-09 02:20:09 INFO  CheckoutComplete:30 - CHECKOUT: COMPLETE! is Preasent
+2022-12-09 02:20:09 INFO  CheckoutComplete:34 - THANK YOU FOR YOUR ORDER is Present
+2022-12-09 02:20:09 INFO  CheckoutComplete:38 - Your order has been dispatched, and will arrive just as fast as the pony can get there! is Present
+2022-12-09 02:20:09 INFO  CheckElement:22 - Element Pony Express Sauce Labs is Present 
+2022-12-09 02:20:09 INFO  CheckButtonElement:19 - Element Back Home is Enabled
+2022-12-09 02:20:09 INFO  CheckButtonAction:15 - Back Home is Clicked

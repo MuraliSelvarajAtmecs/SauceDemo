@@ -1,52 +1,61 @@
 package com.reskill.reusables;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.reskill.pages.CartPageLocation;
+
 public class GetProductDetails {
-
+	static Logger logger = Logger.getLogger(GetProductDetails.class);
 	public WebDriver driver;
+	AddAllItemsInCart addAllItems = new AddAllItemsInCart();
+	CartImageAction cartImage = new CartImageAction();
+	CartPageLocation cartPage = new CartPageLocation();
 	
-	List<WebElement> itemCart = driver.findElements(By.xpath("//div[@class='inventory_item_description']//button"));
-	List<WebElement> itemLabel = driver.findElements(By.xpath("//div[@class='inventory_item_description']//div[@class='inventory_item_name']"));
-	List<WebElement> itemDisc = driver.findElements(By.xpath("//div[@class='inventory_item_description']//div[@class='inventory_item_desc']"));
-	List<WebElement> itemPrice = driver.findElements(By.xpath("//div[@class='inventory_item_description']//div[@class='inventory_item_price']"));
-	
-	List<WebElement> cartItemLabel = driver.findElements(By.xpath("//div[@class='cart_item_label']//div[@class='inventory_item_name']"));
-	List<WebElement> cartItemDisc = driver.findElements(By.xpath("//div[@class='cart_item_label']//div[@class='inventory_item_desc']"));
-	List<WebElement> cartItemPrice = driver.findElements(By.xpath("//div[@class='cart_item_label']//div[@class='inventory_item_price']"));
+	public List<String> prodDetails(WebDriver driver) {
+		List<String> uiData = new ArrayList<String>();
 
-	int num=0;
+		addAllItems.addAllItems(driver);
+		cartImage.cartImageButtonAction(driver);
+		List<WebElement> cartQTY = driver.findElements(By.xpath(cartPage.getCartItemQTY()));
+		List<WebElement> cartItemLabel = driver.findElements(By.xpath(cartPage.getCartItemLabel()));
+		List<WebElement> cartItemDisc = driver.findElements(By.xpath(cartPage.getCartItemDisc()));
+		List<WebElement> cartItemPrice = driver.findElements(By.xpath(cartPage.getCartItemPrice()));
 	
-
-	for (int buttonAction = 0; buttonAction < itemCart.size(); buttonAction++) {
-		itemCart.get(buttonAction).click();
+//	for (int addProd = 0; addProd < cartItemLabel.size(); addProd++) {
+//		String cartQTYs = cartQTY.get(addProd).getText();
+//		String cartItemLabels = cartItemLabel.get(addProd).getText();
+//		String cartItemDecs = cartItemDisc.get(addProd).getText();
+//		String cartItemPrices = cartItemPrice.get(addProd).getText();
+//		
+//		logger.info("Label: " + cartQTYs);
+//		logger.info("Label: " + cartItemLabels);
+//		logger.info("Label: " + cartItemDecs);
+//		logger.info("Label: " + cartItemPrices);
+//		
+//	}
+		for (int addProd = 0; addProd < cartItemLabel.size(); addProd++) {
+			
+		uiData.add( cartQTY.get(addProd).getText());
+		uiData.add(cartItemLabel.get(addProd).getText());
+		uiData.add(cartItemDisc.get(addProd).getText());
+		uiData.add(cartItemPrice.get(addProd).getText());
 		
-		
-		
-		System.err.println("Line Number:- "+num);
-		String itemLabels = itemLabel.get(buttonAction).getText();
-		System.out.println("The output of Item Labels is:- " + itemLabels);
-		String itemDiscriptions = itemDisc.get(buttonAction).getText();
-		System.out.println("The output of Discription is:- " + itemDiscriptions);
-		String itemPrices = itemPrice.get(buttonAction).getText();
-		System.out.println("The output of Price is:- " + itemPrices);
-		num++;
 	}
-	driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
-	String cartText = driver.findElement(By.xpath("//div[@class='header_secondary_container']")).getText();
-	System.out.println("Page confirmation:- " + cartText);
-
-//	Thread.sleep(2000);
-//	WebDriverWait wait = new WebDriverWait(driver, 5000);
-//	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn_secondary back btn_medium']")));
-	driver.findElement(By.xpath("//button[@id='continue-shopping']")).click();
-
+		
+	
+return uiData;
 }
+//	public static void main(String[] args) {
+//		GetProductDetails run = new GetProductDetails();
+//		run.prodDetails(driver);
+//	}
 
 }
